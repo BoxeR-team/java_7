@@ -7,8 +7,8 @@ public class Task1 {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter symbols: \n");
-        String str = scanner.nextLine();
-        char[] mass = str.toCharArray();
+        String word = scanner.nextLine();
+        char[] mass = word.toCharArray();
         int sum = 0;
 
         for (int i = 0; i < mass.length; i++) {
